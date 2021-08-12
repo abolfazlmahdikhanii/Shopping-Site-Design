@@ -154,6 +154,7 @@ header{
     padding: 6px;
     border: none;
     outline: none;
+    width: 100%;
 }
 .txt-search::placeholder{
     font-weight: 700;
@@ -398,11 +399,11 @@ h2{
 }
 .btn-backward-s:hover{
     transition: all 0.5s ease-in-out;
-    transform: translateX(-30%);
+    transform: translateX(-10%);
 }
 .btn-forward-s:hover{
     transition: all 0.5s ease-in-out;
-    transform: translateX(30%);
+    transform: translateX(10%);
 }
 .btn-forward-s{
     width: 61px;
@@ -823,7 +824,7 @@ background-color:#0099FF ;
         z-index: 0;
   
     }
-    .middle-m,.menu-mobile-btn{
+    .middle-m,.menu-mobile-btn,.middle-m.active{
         display: none;
     }
 .left,.list-menu,.right{
